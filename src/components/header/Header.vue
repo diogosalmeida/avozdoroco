@@ -8,10 +8,10 @@
     </div>
     <nav id="menu" class="brother_flex">
       <ul>
-        <li class="items-menu"><a href="#">Projeto </a></li>
-        <li class="items-menu"><a href="#">Equipe Rouca </a></li>
-        <li class="items-menu"><a href="#">Parceiros e Apoiadores </a></li>
-        <li class="items-menu"><a href="#">Contato </a></li>
+        <li class="items-menu"><a href="#Projeto">Projeto </a></li>
+        <li class="items-menu"><a href="#Equipe">Equipe Rouca </a></li>
+        <li class="items-menu"><a href="#Parceiros">Parceiros e Apoiadores </a></li>
+        <li class="items-menu"><a href="#Contatos">Contato </a></li>
       </ul>
     </nav>
   </div>

@@ -4,14 +4,21 @@
     <Banner class="neighbors" id="banner"></Banner>
     <Project class="neighbors" id="project"></Project>
     <About id="about"></About>
+    <Separator class="neighbors"></Separator>
+    <Team id="team"></Team>
+    <Separator class="neighbors"></Separator>
+    <Footer id="footer"></Footer>
   </div>
 </template>
 
 <script>
 import Header from "./components/header/Header";
 import Banner from "./components/banner/Banner";
-import Project from "./components/project/Project"
-import About from "./components/about/About"
+import Project from "./components/project/Project";
+import About from "./components/about/About";
+import Separator from "./components/separator/Separator";
+import Team from "./components/team/Team";
+import Footer from "./components/footer/Footer"
 
 export default {
   name: "App",
@@ -19,7 +26,10 @@ export default {
     Header,
     Banner,
     Project,
-    About
+    About,
+    Separator,
+    Team,
+    Footer
   },
 };
 </script>
@@ -33,16 +43,38 @@ export default {
   margin: -1rem;
   display: flex;
   flex-direction: column;
-}
-
-#header {
-  position: relative;
+  background-color: #e9e9e8;
+  padding: 0;
 }
 
 #banner {
   margin: auto;
+  width: 100%;
 }
 #about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contacts {
   margin: auto;
+}
+
+#team {
+  background-color: #fccc72;
+}
+
+#footer {
+  background-color: #171f53;
+  width: 100%;
+}
+
+@media (max-width: 600px)
+{
+  #rigth-logo
+   {
+    display: none;
+   }
 }
 </style>

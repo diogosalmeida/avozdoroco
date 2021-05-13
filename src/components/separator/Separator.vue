@@ -1,10 +1,10 @@
 <template>
-   <img id="banner" src="../../assets/banner.png" />
+   <img id="separator" src="../../assets/separtor.svg" />
 </template>
 
 <script>
 export default {
-  name: "Banner",
+  name: "Separator",
 };
 </script>
 

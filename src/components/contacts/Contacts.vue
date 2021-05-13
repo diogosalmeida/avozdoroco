@@ -1,10 +1,10 @@
 <template>
-   <img id="banner" src="../../assets/banner.png" />
+  <div>OI</div>
 </template>
 
 <script>
 export default {
-  name: "Banner",
+  name: "Contacts",
 };
 </script>
 

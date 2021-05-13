@@ -9,9 +9,5 @@ export default {
 </script>
 
 <style>
- #projeto {
-     width: 100%;
-     margin-left: 2%;
-     margin-right: 2%;
- }
+
 </style>
