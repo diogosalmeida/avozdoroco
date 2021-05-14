@@ -13,8 +13,8 @@
       <div class="contact">
         <img class="perfil" src="../../assets/guilheme.svg" />
         <div id="contact-container-perfil">
-          <h1 class="title-contact" id="gui">Guilherme Canto</h1>
-          <p class="second-title" id="gui">
+          <h1 class="title-contact" id="gui" >Guilherme Canto</h1>
+          <p class="second-title" id="gui-sub">
             Apresentador, curador e roteirista
           </p>
           <p class="history">
@@ -82,7 +82,7 @@
           </p>
         </div>
       </div>
-      <object id="audio"></object>
+      <object class="contact" id="audio"></object>
       <a name="Parceiros">
         <div id="other-container">
           <h1 id="others-voices">
@@ -104,7 +104,7 @@
 
       <div class="contact" id="cob">
         <div id="container-final">
-          <h1 class="title-contact-cinepiano">Rents</h1>
+          <h1 class="title-contact-cinepiano">Rentz</h1>
           <a href="http://rentz.com.br/" class="link">http://rentz.com.br/</a>
         </div>
         <img id="rentz" src="../../assets/rentz.svg" />
@@ -128,7 +128,7 @@ export default {
 #container-team-two {
   display: flex;
   margin-left: 5%;
-  margin-top: -20%;
+  margin-top: -32%;
   flex-direction: column;
 }
 
@@ -140,10 +140,12 @@ export default {
   display: flex;
   flex-direction: row;
   align-items: center;
+  height: 50%;
 }
 
 .title-contact {
-  font-size: 65pt;
+  font-size: 45pt;
+  padding-bottom: 5%;
 }
 .second-title {
   font-size: 24pt;
@@ -161,6 +163,11 @@ export default {
 }
 
 #gui {
+  color: #20c7a3;
+  text-decoration: underline;
+}
+
+#gui-sub {
   color: #20c7a3;
 }
 #digo {
@@ -181,10 +188,11 @@ export default {
   height: 0;
   padding: 0; /* reset */
   padding-bottom: 92%;
+  margin-top: -50%;
 }
 
 #others-voices {
-  font-size: 80pt;
+  font-size: 45pt;
 }
 #other-container {
   display: flex;
@@ -193,9 +201,8 @@ export default {
 }
 
 .title-contact-cinepiano {
-  font-size: 50pt;
-  color: #f531a7;
-  
+  font-size: 35pt;
+  color: #f531a7; 
 }
 
 #cinepiano {
@@ -203,7 +210,7 @@ export default {
 }
 
 .link {
-  font-size: 40pt;
+  font-size: 30pt;
   color: #f531a7;
   z-index: 4000;
 }

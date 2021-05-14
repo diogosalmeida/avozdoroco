@@ -1,12 +1,12 @@
 <template>
   <div>
     
-      <a name="Projeto"> </a>
+      <a name="Projeto"> 
         <p id="title-about">
         Podcast que celebra experiências de arte, educação e cultura,<br />
         segmentos que são essenciais para a nossa sociedade.
         </p>
-     
+     </a>
     
     <div id="container-text">
       <p class="full-text">
@@ -55,9 +55,9 @@ export default {
 <style>
 #title-about {
   color: #eda430;
-  font-size: clamp(3em, 2em + 1vw, 1.5em);
+  font-size: 38pt;
   font-family: "Roboto Slab", serif;
-  align-self: center;
+  text-align: center;
 }
 
 #container-text {
@@ -65,7 +65,7 @@ export default {
 }
 
 .full-text {
-  font-size: 22pt;
+  font-size: 18pt;
   font-family: "Dosis", sans-serif;
   text-align: center;
   text-align: inherit;

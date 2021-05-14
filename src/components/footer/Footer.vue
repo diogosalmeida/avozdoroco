@@ -78,7 +78,7 @@
     </div>
 
     <div id="logo-end">
-      <iframe id="iframe" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+      <iframe id="iframe" src="https://www.youtube.com/embed/izty0RezH6M">
       </iframe>
 
       <div id="form-contact">
@@ -123,6 +123,7 @@
 </template>
 
 <script>
+
 export default {
   name: "Footer",
 };
@@ -158,11 +159,11 @@ export default {
 }
 #voice {
   color: #43c29d;
-  font-size: 80pt;
+  font-size: 60pt;
 }
 
 #text-contact {
-  font-size: 30pt;
+  font-size: 25pt;
   color: white;
   width: 70%;
 }
@@ -248,7 +249,7 @@ input[type="text"] {
 }
 
 #enviar {
-  background-color: #4caf50; /* Green */
+  background-color: #43c29d; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -258,5 +259,13 @@ input[type="text"] {
   font-size: 16px;
   cursor: pointer;
   width: 100%;
+}
+
+@media (max-width: 600px)
+{
+  #triangle
+   {
+    display: none;
+   }
 }
 </style>

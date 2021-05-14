@@ -52,6 +52,14 @@ export default {
   margin: auto;
 }
 
+@media (max-width: 600px)
+{
+   #menu
+   {
+    display: none;
+   }
+}
+
 #menu ul {
   list-style: none;
   margin-bottom: 10px;

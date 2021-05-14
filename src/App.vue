@@ -70,11 +70,27 @@ export default {
   width: 100%;
 }
 
-@media (max-width: 600px)
+@media (max-width: 1400px)
 {
   #rigth-logo
    {
     display: none;
+   }
+
+   #container-team-two {
+     margin-top: -10%;
+   }
+
+   .contact {
+     padding: 10%;
+   }
+
+   #cinepiano {
+    display: none;
+   }
+
+   #rentz {
+     display: none;
    }
 }
 </style>
