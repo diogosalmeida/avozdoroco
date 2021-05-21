@@ -13,7 +13,7 @@
       <div class="contact">
         <img class="perfil" src="../../assets/guilheme.svg" />
         <div id="contact-container-perfil">
-          <h1 class="title-contact" id="gui" >Guilherme Canto</h1>
+          <h1 class="title-contact" id="gui">Guilherme Canto</h1>
           <p class="second-title" id="gui-sub">
             Apresentador, curador e roteirista
           </p>
@@ -133,18 +133,20 @@ export default {
 }
 
 #title-rouca {
-  font-size: 75pt;
+  font-size: 60pt;
+  font-family: "Dosis", sans-serif;
 }
 
 .contact {
   display: flex;
+  width: 65%;
   flex-direction: row;
   align-items: center;
   height: 50%;
 }
 
 .title-contact {
-  font-size: 45pt;
+  font-size: 40pt;
   padding-bottom: 5%;
 }
 .second-title {
@@ -157,8 +159,8 @@ export default {
   flex-direction: column;
 }
 .history {
-  width: 85%;
-  font-size: 20pt;
+  width: 80%;
+  font-size: 16pt;
   font-family: "Dosis", sans-serif;
 }
 
@@ -182,13 +184,13 @@ export default {
 
 #audio {
   margin: auto;
-  width: 90%;
+  width: 60%;
   background-image: url(../../assets/audio.svg);
   background-size: cover;
   height: 0;
   padding: 0; /* reset */
-  padding-bottom: 92%;
-  margin-top: -50%;
+  padding-bottom: 80%;
+  margin-top: -30%;
 }
 
 #others-voices {
@@ -202,7 +204,7 @@ export default {
 
 .title-contact-cinepiano {
   font-size: 35pt;
-  color: #f531a7; 
+  color: #f531a7;
 }
 
 #cinepiano {
@@ -220,11 +222,8 @@ export default {
   flex-direction: column;
 }
 
-#cob {
-  margin-top: -16%;
-}
 #parceiros {
-  font-size: 40pt;
+  font-size: 20pt;
 }
 #cinepiano {
   width: 26%;

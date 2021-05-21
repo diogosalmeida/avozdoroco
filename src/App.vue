@@ -70,6 +70,12 @@ export default {
   width: 100%;
 }
 
+#project {
+  width: 50%;
+  align-self: center;
+  margin-top: 5%;
+}
+
 @media (max-width: 1400px)
 {
   #rigth-logo

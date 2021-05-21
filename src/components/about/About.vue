@@ -55,7 +55,7 @@ export default {
 <style>
 #title-about {
   color: #eda430;
-  font-size: 38pt;
+  font-size: 28pt;
   font-family: "Roboto Slab", serif;
   text-align: center;
 }
@@ -65,7 +65,7 @@ export default {
 }
 
 .full-text {
-  font-size: 18pt;
+  font-size: 16pt;
   font-family: "Dosis", sans-serif;
   text-align: center;
   text-align: inherit;

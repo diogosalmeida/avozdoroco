@@ -22,7 +22,7 @@
     </div>
 
     <div id="we-channels">
-      <h1>Nossos Canais</h1>
+      <h1 id="canais">Nossos Canais</h1>
       <p id="text-contact-one">
         Junte-se a nós e ajude a continuar com esse projeto que ressoa vozes tão
         importantes nesses tempos difíceis em que vivemos.
@@ -131,8 +131,12 @@ export default {
 
 <style>
 #triangle {
-  width: 50%;
-  height: 50%;
+  width: 38%;
+  height: 38%;
+}
+
+#canais {
+  font-size: 35pt;
 }
 
 #step-one {
@@ -159,18 +163,18 @@ export default {
 }
 #voice {
   color: #43c29d;
-  font-size: 60pt;
+  font-size: 35pt;
 }
 
 #text-contact {
-  font-size: 25pt;
+  font-size: 20pt;
   color: white;
   width: 70%;
 }
 
 #email {
   color: #f230a6;
-  font-size: 30pt;
+  font-size: 25pt;
 }
 
 #we-channels {
@@ -185,13 +189,13 @@ export default {
 
 #text-contact-one {
   width: 70%;
-  font-size: 24pt;
+  font-size: 20pt;
   color: white;
   margin-left: 1%;
 }
 #text-contact-two {
   width: 70%;
-  font-size: 24pt;
+  font-size: 20pt;
   color: white;
   margin-left: 1%;
 }
